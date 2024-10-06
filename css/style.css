@@ -79,13 +79,14 @@
   }
   
   .hero-content h1 {
-    font-size: 3rem;
+    font-size: 48px;
     line-height: 1.2;
   }
   
   .hero-content p {
     margin: 20px 0;
-    font-size: 1.2rem;
+    font-size: 16px;
+    max-width: 350px;
   }
   
   .search-bar {
@@ -121,7 +122,6 @@
     height: auto;
   } 
   /*   Brand section   */
-
   .brands-section {
     padding: 50px 20px;
     background-color: #f5f5f5;
@@ -394,6 +394,6 @@
   
   .footer p {
     margin: 0;
-  }
+  } 
   
   

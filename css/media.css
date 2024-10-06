@@ -2,7 +2,34 @@
     .nav-links{
         display: none;
     }
-    .hero-content{
-        flex-direction: column-reverse;
-    }
 }
+
+@media (max-width: 990px) {
+    .brand-card {
+      width: 45%; 
+    }
+    .products-grid {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 770px) {
+    .brand-card {
+      width: 100%; 
+    }
+    .products-grid {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  @media (max-width: 770px) {
+    .hero {
+      flex-direction: column; 
+      text-align: center;
+    }
+  
+    .hero-image {
+      margin-top: 20px; 
+    }
+  }
+  
